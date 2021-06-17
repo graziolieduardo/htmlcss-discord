@@ -10,6 +10,12 @@ body {
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* HEADER  */
 
 /* NAV  */
@@ -96,6 +102,53 @@ ul li:last-child {
     background-color: #23272A;
     color:white;
 }
+
+/* MAIN  */
+section {
+    margin: 80px 0;
+}
+
+.col1 {
+    float: left;
+    width: 55%;
+}
+
+.col2 {
+    float: left;
+    width: 45%;
+}
+
+.section-img img {
+    float: right;
+}
+
+.section-text {
+    width: 60%;
+    padding: 40px 100px;
+    color: #23272A;
+}
+
+.section-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section-text p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
