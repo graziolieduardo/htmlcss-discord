@@ -51,8 +51,8 @@ nav ul li #logo {
     vertical-align: middle;
 }
 
-ul li:first-child,
-ul li:last-child {
+nav ul li:first-child,
+nav ul li:last-child {
    padding: 0 250px;
 }
 
@@ -86,7 +86,7 @@ ul li:last-child {
     line-height: 30px;
 }
 
-.banner-btns {
+.btns {
     border-radius: 30px;
     padding: 15px 20px;
     border: none;
@@ -107,9 +107,9 @@ ul li:last-child {
 
 .wrapper {
     width: 70%;
-    height: 100%;
     margin: 0 auto;
     padding: 150px 0;
+    color: #23272A;
 }
 
 /* Wrapper img left  */
@@ -124,11 +124,9 @@ ul li:last-child {
     float: left;
     width: 300px;
     margin: 40px 0;
-    color: #23272A;
 }
 
 .wrapper .section-text h2 {
-
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -162,4 +160,135 @@ ul li:last-child {
     line-height: 30px;
 }
 
+/* WRAPPER FOOT  */
 
+.wrapper.foot .foot-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.wrapper.foot .foot-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.wrapper.foot .foot-text p {
+    font-size: 18px;
+    line-height: 30px;    
+}
+
+.wrapper.foot img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper.foot .final-text {
+    font-size: 25px;
+    text-align: center;
+}
+
+.wrapper.foot .final-text h3 {
+    font-size: 25px;
+    padding: 40px 0
+}
+
+.final-text {
+    background-image: url(../img/stars.svg);
+    width: 40%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+#purple {
+    background-color: #8EA2E1;
+    color: white;
+}
+
+/* FOOTER  */
+
+footer {
+    background-color: #23272A;
+}
+
+.footer1 {
+    border-bottom: 1px solid #5865F2;
+}
+
+.footer-content {
+    width: 70%;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 6);
+    padding-bottom: 30px;
+}
+
+.col-special {
+    float: left;
+    width: calc((100% / 6)*2);
+}
+
+.footer-content .col-special h4 {
+    font-size: 30px;
+    padding-right: 200px;
+    color: #5865F2;
+}
+
+.footer-content .col-special img {
+    max-width: 30px;
+}
+
+.footer-content .col-special select {
+    border: none;
+    background-color: #23272A;
+    color: white;
+}
+
+.footer-lng {
+    margin: 10px 0;
+}
+
+.footer-icn i {
+    color: white;
+    padding-right: 10px;
+}
+
+.footer-content ul li {
+    list-style: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-content ul li:first-child {
+    color: #5865F2;
+}
+
+.footer2 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.footer2 img {
+    position: absolute;
+    top: 50px;
+    vertical-align: middle;
+}
+
+.footer2 button {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: #5865F2;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
