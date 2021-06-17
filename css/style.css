@@ -105,15 +105,14 @@ ul li:last-child {
 
 /* MAIN  */
 
-section {
-    width: 100%;
-}
-
 .wrapper {
     width: 70%;
     height: 100%;
-    margin: 100px auto;
+    margin: 0 auto;
+    padding: 150px 0;
 }
+
+/* Wrapper img left  */
 
 .wrapper .section-img {
     float: left;
@@ -135,6 +134,30 @@ section {
 }
 
 .wrapper .section-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* wrapper img right  */
+
+.section-special {
+    background-color: #F6F6F6;
+}
+
+.wrapper .section-text-special {
+    float: left;
+    width: 300px;
+    margin: 40px 0 0 100px;
+    color: #23272A;
+}
+
+.wrapper .section-text-special h2 {
+
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.wrapper .section-text-special p {
     font-size: 18px;
     line-height: 30px;
 }
